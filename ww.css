@@ -1,0 +1,99 @@
+#fir{
+    /* background-color: #baa365;
+    color :darkturquoise;
+    background-image: url("https://misis.ru/files/24893/%D0%BF%D0%B0%D0%BB%D1%8C%D0%BC%D0%B0.png"); 
+    background-repeat: no-repeat; 
+    background-position:top; 
+    background: #baa365 url("https://misis.ru/files/24893/%D0%BF%D0%B0%D0%BB%D1%8C%D0%BC%D0%B0.png") no-repeat center center;
+    height: 700px;
+    background-attachment: fixed;
+    background-size: cover;  */
+    text-align:center;
+    font-size: 32px;
+    font-style: oblique;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif ;
+    
+}
+
+#block{
+    background-color:aliceblue;
+    height: 200px;
+    width: 270px;
+    border: 7px double silver;
+    border-bottom-style: groove;
+    border-radius: 20px 70% 50px;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#cont1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#block div,
+#block2 div {
+    height: 60px;
+    width: 60px;
+    border-radius: 300px;
+    margin: 10px;
+    background: url("../sharingan/assets/img/nelogo.png");
+    background-size: contain;
+    animation: sharinganrotate 2s linear infinite;
+}
+
+#block2 {
+    background-color: aliceblue;
+    height: 200px;
+    width: 270px;
+    border: 7px double silver;
+    border-bottom-style: groove;
+    border-radius: 70% 20px 70% 50px;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.eye {
+    transition: background 1s ease, width 1s ease, height 1s ease;
+    position: relative;
+}
+
+/* .eye::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition: width 1s ease, height 1s ease;
+}
+
+.eye.changeBackground::after {
+    width: 100%;
+    height: 100%;
+    background: url("../sharingan/assets/img/mangeke.png");
+    background-size: contain;
+} */
+
+button.changeToMangeke {
+    padding: 10px 20px;
+    background-color: #A80000;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+@keyframes sharinganrotate {
+    100% { transform: rotate(360deg); }
+}
+
+
+
+
